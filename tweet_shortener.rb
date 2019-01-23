@@ -1,7 +1,8 @@
 def word_substituter (string)
+  string.map {|word| word.short}
   string.split(" ")
   # takes in the string and splits at each space
-  string.map {|word| word.short}
+  # string.map {|word| word.short}
     # iterates over each word of the string
 
     if dictionary.keys.include?(word)
