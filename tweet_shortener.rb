@@ -1,6 +1,6 @@
 def word_substituter (string)
   
-  string.split(" ")
+  if string.split(" ")
   # takes in the string and splits at each space
   # string.map {|word| word.short}
     # iterates over each word of the string
