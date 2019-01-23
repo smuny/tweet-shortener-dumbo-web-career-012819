@@ -5,10 +5,10 @@ def word_substituter (string)
   # string.map {|word| word.short}
     # iterates over each word of the string
 
-    if dictionary.keys.include?(word)
-      # if the word from the string is one of the keys from the dictionary
-      # replace it and store the VALUE of that key as the variable word
-      word = dictionary[word]
+    # if dictionary.keys.include?(word)
+    #   # if the word from the string is one of the keys from the dictionary
+    #   # replace it and store the VALUE of that key as the variable word
+    #   word = dictionary[word]
 
     elsif dictionary.keys.include?(word.downcase)
         # checks the lowercase words.. if the tweet is one of the keys from
