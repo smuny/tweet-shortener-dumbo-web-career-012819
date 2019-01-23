@@ -19,6 +19,6 @@ def word_substituter (string)
       # if the word we are on is NOT in the dictionary, we keep it as is
       word
     end
-  string.join(" ")
+  # string.join(" ")
   # joins the tweet back together with a space in between
 end
