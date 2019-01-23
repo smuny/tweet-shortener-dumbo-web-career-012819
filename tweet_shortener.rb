@@ -1,2 +1,2 @@
-def word_substituter(word)
+def word_substituter(string)
 end
