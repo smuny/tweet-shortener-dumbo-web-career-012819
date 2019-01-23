@@ -1,11 +1,11 @@
 def word_substituter (string)
   string.split(" ")
-  # takes in the tweet string and splits at each space
-  tweet.map do |word|
-    # iterates over each word of the tweet
+  # takes in the string and splits at each space
+  string.map do |word|
+    # iterates over each word of the string
 
     if dictionary.keys.include?(word)
-      # if the word from the tweet is one of the keys from the dictionary
+      # if the word from the string is one of the keys from the dictionary
       # replace it and store the VALUE of that key as the variable word
       word = dictionary[word]
 
