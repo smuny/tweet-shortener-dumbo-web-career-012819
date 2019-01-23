@@ -1,7 +1,7 @@
 def word_substituter (string)
   string.split(" ")
   # takes in the string and splits at each space
-  string.map do |word|
+  string.map {|word| word.short}
     # iterates over each word of the string
 
     if dictionary.keys.include?(word)
@@ -18,6 +18,6 @@ def word_substituter (string)
       # if the word we are on is NOT in the dictionary, we keep it as is
       word
     end
-  end.join(" ")
+  string.join(" ")
   # joins the tweet back together with a space in between
 end
